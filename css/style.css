@@ -176,3 +176,22 @@ img {
 .widget-curso:not(:last-of-type) {
     border-bottom: 1px solid var(--negro);
 }
+/**FOOTER**/
+.footer {
+    background-color: var(--negro);
+    padding: 1.5rem;
+    margin-top: 4rem;
+}
+
+/***********************SOBRE NOSOTROS***************************/
+@media (min-width: 768px) {
+    .sobre-nosotros {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sobre-nosotros__imagen, 
+    .sobre-nosotros__texto {
+        flex-basis: calc(50% - 2rem);
+    }
+}
